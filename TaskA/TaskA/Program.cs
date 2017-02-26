@@ -8,23 +8,34 @@ namespace TaskA
 {
     class Program
     {
-        public static void DivFT(int a)
+        public static void DivFT(int n)
         {
-            if ((a % 5 == 0) && (a % 3 == 0))
+            for (int i = 1; i <= n; i++)
             {
-                Console.WriteLine("Fizz Buzz");
-            }
-            else if (a % 3 == 0)
-            {
-                Console.WriteLine("Fizz");
-            }
-            else if (a % 5 == 0)
-            {
-                Console.WriteLine("Buzz");
+                if (i % 15 == 0)
+                {
+                    Console.WriteLine("Fizz Buzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
             }
         }
         static void Main(string[] args)
         {
+            int n = Convert.ToInt32(Console.ReadLine());
+            DivFT(n);
+            Console.ReadKey();
+
         }
     }
 }
