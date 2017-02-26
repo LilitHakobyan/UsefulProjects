@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polidrom", "Polidrom\Polidr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Override", "Override\Override.csproj", "{B67743BA-15EF-45B5-80B2-41E5EE155AD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrComp", "ArrComp\ArrComp.csproj", "{D6022661-AA20-477A-836E-C8762FE0C8FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B67743BA-15EF-45B5-80B2-41E5EE155AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B67743BA-15EF-45B5-80B2-41E5EE155AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B67743BA-15EF-45B5-80B2-41E5EE155AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
