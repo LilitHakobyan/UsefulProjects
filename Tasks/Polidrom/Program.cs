@@ -10,10 +10,9 @@ namespace Polidrom
     {
         public static bool isPoli(string str)
         {
-            var chars = str.ToCharArray();
-            for (int i = 0; i < chars.Length / 2; i++)
+            for (int i = 0; i < str.Length / 2; i++)
             {
-                if (chars[i] != chars[chars.Length - i - 1])
+                if (str[i] != str[str.Length - i - 1])
                 {
                     
                     return false;
