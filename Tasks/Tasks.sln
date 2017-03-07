@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Override", "Override\Overri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrComp", "ArrComp\ArrComp.csproj", "{D6022661-AA20-477A-836E-C8762FE0C8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumOfTwo", "sumOfTwo\sumOfTwo.csproj", "{61713D66-5AA3-4E56-87FA-FD16B422A57A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6022661-AA20-477A-836E-C8762FE0C8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
