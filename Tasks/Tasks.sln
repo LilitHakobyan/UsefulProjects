@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskA", "TaskA\TaskA.csproj", "{B8FADAC6-CCAD-4263-9576-86C0904A46EF}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrComp", "ArrComp\ArrComp.csproj", "{D6022661-AA20-477A-836E-C8762FE0C8FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumOfTwo", "sumOfTwo\sumOfTwo.csproj", "{61713D66-5AA3-4E56-87FA-FD16B422A57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstDuplicate", "firstDuplicate\firstDuplicate.csproj", "{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61713D66-5AA3-4E56-87FA-FD16B422A57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
