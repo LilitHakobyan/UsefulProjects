@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumOfTwo", "sumOfTwo\sumOfT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstDuplicate", "firstDuplicate\firstDuplicate.csproj", "{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstNotRepeatingCharacter", "firstNotRepeatingCharacter\firstNotRepeatingCharacter.csproj", "{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
