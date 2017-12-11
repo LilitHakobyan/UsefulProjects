@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskA", "TaskA\TaskA.csproj", "{B8FADAC6-CCAD-4263-9576-86C0904A46EF}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstDuplicate", "firstDuplicate\firstDuplicate.csproj", "{ACD7C86B-64EF-47A9-94C9-9D406CB81C96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "firstNotRepeatingCharacter", "firstNotRepeatingCharacter\firstNotRepeatingCharacter.csproj", "{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3F4D35CF-4866-452D-BE83-EE069498CB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DFB0E66-D25E-4EE7-A96D-35C2FADCCA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4D35CF-4866-452D-BE83-EE069498CB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4D35CF-4866-452D-BE83-EE069498CB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4D35CF-4866-452D-BE83-EE069498CB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4D35CF-4866-452D-BE83-EE069498CB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7283EF2E-CF9E-4560-9C41-6CB9D930B065}
 	EndGlobalSection
 EndGlobal

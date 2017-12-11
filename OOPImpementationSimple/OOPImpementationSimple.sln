@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPImpementationSimple", "OOPImpementationSimple\OOPImpementationSimple.csproj", "{146432AB-1F01-463A-950D-7D2E221ECF4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C3487B-6AEE-4BAC-BED7-F333A1E3A39D}
+	EndGlobalSection
+EndGlobal
