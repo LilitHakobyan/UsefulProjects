@@ -17,10 +17,12 @@ namespace OOPImpementationSimple
                 using (StreamReader sr=File.OpenText(path))
                 {
                     string text = sr.ReadToEnd();
-                    string[] arrTextSplit = text.Split();
+                     string[] arrTextSplit = text.Split(new []{"\n","\r"," "},StringSplitOptions.RemoveEmptyEntries);
+                    //string[] arrTextSplit = text.Split();
+
                     for (int i = 0; i < arrTextSplit.Length; i++)
                     {
-                        arr.Add(Double.Parse(arrTextSplit[i]));
+                        arr.Add(double.Parse(arrTextSplit[i]));
                     }
                     
                 }
@@ -56,6 +58,21 @@ namespace OOPImpementationSimple
                 throw;
             }
         }
-            
+        public static void WriteInFileOneItem(this double item, string path)
+        {
+            try
+            {
+                using (StreamWriter sw = File.AppendText(path))
+                {
+                        sw.Write(item);
+                        sw.Write(" ");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
     }
 }

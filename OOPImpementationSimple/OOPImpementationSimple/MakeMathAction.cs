@@ -9,7 +9,7 @@ namespace OOPImpementationSimple
     class MakeMathAction:Progressions,IDisposable
     {
         public  string filePath { get; set; }
-        public List<double> itemList;
+        public List<double> itemList=new List<double>();
 
         public MakeMathAction(string path)
         {

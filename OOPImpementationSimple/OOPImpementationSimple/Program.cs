@@ -11,17 +11,26 @@ namespace OOPImpementationSimple
         static void Main(string[] args)
         {
             double coommon=0;
-            MakeMathAction mathAction =new MakeMathAction(@"E:\c#\progression.txt");
+            string pathReadG = @"E:\c#\progressionG.txt";
+            string pathReadA = @"E:\c#\progressionA.txt";
+
+            string pathWrite = @"E:\c#\newprogression.txt";
+
+            MakeMathAction mathAction =new MakeMathAction(pathReadG);
             if (mathAction.IsGeometricProgression(mathAction.itemList.ToArray(),ref coommon))
             {
               double sumGP=  mathAction.GeometricProgressions(mathAction.itemList.First(), coommon, mathAction.itemList.Count);
                 Console.WriteLine(sumGP);
+                sumGP.WriteInFileOneItem(pathWrite);
             }
-            if (mathAction.IsaArithmeticProgression(mathAction.itemList.ToArray(),ref coommon))
+            MakeMathAction mathAction1 = new MakeMathAction(pathReadA);
+
+            if (mathAction1.IsaArithmeticProgression(mathAction1.itemList.ToArray(),ref coommon))
             {
-                double sumAP = mathAction.arithmeticProgression(mathAction.itemList.First(), mathAction.itemList.Last(),
-                    mathAction.itemList.Count);
+                double sumAP = mathAction1.arithmeticProgression(mathAction1.itemList.First(), mathAction1.itemList.Last(),
+                    mathAction1.itemList.Count);
                 Console.WriteLine(sumAP);
+                sumAP.WriteInFileOneItem(pathWrite);
             }
         }
     }
