@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPImpementationSimple", "OOPImpementationSimple\OOPImpementationSimple.csproj", "{146432AB-1F01-463A-950D-7D2E221ECF4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorphismTest", "ConsoleApp1\PolimorphismTest.csproj", "{D01EA619-1BA4-4044-AD45-EEF0B1EF79E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146432AB-1F01-463A-950D-7D2E221ECF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01EA619-1BA4-4044-AD45-EEF0B1EF79E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01EA619-1BA4-4044-AD45-EEF0B1EF79E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01EA619-1BA4-4044-AD45-EEF0B1EF79E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01EA619-1BA4-4044-AD45-EEF0B1EF79E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
