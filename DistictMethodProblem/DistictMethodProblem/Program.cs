@@ -57,7 +57,8 @@ new Employee3{Name="John",Age=46},
             }
             Console.WriteLine(")))))))))))))))))))");
             List<Employee2> distinctEmployeesByName2 = lstEmployees2.Distinct().ToList();// ays depqum porcum e hamematel default compererov 
-            //bayc classum implement e arvac voch te objectin@ ayl interfacn e implement arvac u trvac che vorpes comper argument ete tanq new Employee3() apa kashxati :D 
+                                                                                         //bayc classum implement e arvac voch te objectin@ ayl interfacn e implement arvac 
+                                                                                         //u trvac che vorpes comper argument ete tanq new Employee3() apa kashxati :D 
             foreach (var item in distinctEmployeesByName2)
             {
                 Console.WriteLine(item.Name + " " + item.Age);
